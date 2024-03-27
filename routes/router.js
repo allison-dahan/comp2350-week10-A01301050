@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const userModel = require('../models/web_user');
+const petModel = require('../models/pet');
 // const database = include('databaseConnection');
 // const dbModel = include('databaseAccessLayer');
 //const dbModel = include('staticData');

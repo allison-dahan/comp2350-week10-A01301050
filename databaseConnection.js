@@ -11,11 +11,11 @@ const dbConfigQoddi = {
 };
 
 const dbConfigLocal = {
-	host: "localhost",
-	user: "root",
-	password: "Password",
-	database: "database1",
-	multipleStatements: false
+    host: "sql.freedb.tech",
+    user: "freedb_2351_main",
+    password: "qE%6DmaDpeKvTpj",
+    database: "freedb_comp2350-week2-A01301050",
+    multipleStatements: false
 };
 
 if (is_qoddi) {
