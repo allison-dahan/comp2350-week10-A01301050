@@ -1,6 +1,7 @@
 const is_qoddi = process.env.IS_QODDI || false;
-const dbConfigQoddi =
-  "mysql://freedb_2351_main:qE%6DmaDpeKvTpj@sql.freedb.tech:3306/freedb_comp2350-week2-A01301050";
+
+const password = encodeURIComponent("qE%6DmaDpeKvTpj");
+const dbConfigQoddi = `mysql://freedb_2351_main:${password}@sql.freedb.tech:3306/freedb_comp2350-week2-A01301050`;
   
 // ? has to be encoded as %3F
 
